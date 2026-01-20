@@ -1,18 +1,13 @@
 {
-  "name": "com.ging1991.persistencia",
-  "version": "1.0.0",
-  "displayName": "Persistencia",
-  "description": "Librería de guardar datos para Unity.",
-  "unity": "2021.3",
-  "keywords": [
-    "time",
-    "clock",
-    "reloj",
-    "utilities"
-  ],
-  "author": {
-    "name": "Carlos Caballero",
-    "email": "tu-email@ejemplo.com",
-    "url": "https://github.com/Ging1991/Unity-Persistencia"
-  }
+	"name": "com.bounds.tcg.modulos.cofres",
+	"version": "1.0.0",
+	"displayName": "Bounds - Cofre",
+	"description": "Módulo de mazos para Bounds TCG",
+	"unity": "2021.3",
+	"keywords": ["cartas", "estrategia", "imagenes", "utiles"],
+	"author": {
+		"name": "Carlos Caballero",
+		"email": "tu-email@ejemplo.com",
+		"url": "https://github.com/Ging1991/Bounds-Modulos-Cartas.git"
+	}
 }

@@ -1,0 +1,20 @@
+{
+    "name": "Bounds.Cofres",
+    "rootNamespace": "Bounds.Modulos.Cofres",
+    "references": [
+        "Ging1991.Core",
+        "Ging1991.Ventanas",
+        "Ging1991.Interfaces",
+        "Ging1991.Persistencia"
+    ],
+
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
