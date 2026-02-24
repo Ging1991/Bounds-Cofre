@@ -1,13 +1,13 @@
 namespace Bounds.Cofres {
 
-	public class LineaReceta {
+	public class CartaCofreBD {
 
 		public int cartaID;
 		public int cantidad;
 		public string rareza;
 		public string imagen;
 
-		public LineaReceta(string codigo) {
+		public CartaCofreBD(string codigo) {
 			var partes = codigo.Split('_');
 			cartaID = int.Parse(partes[0]);
 			imagen = partes[1];
@@ -21,8 +21,13 @@ namespace Bounds.Cofres {
 		}
 
 
-		public string GetCodigoParcial() {
+		public string GetCodigoIndividual() {
 			return $"{GetCartaIDFormateada()}_{imagen}_{rareza}";
+		}
+
+
+		public string GetCodigoColeccion() {
+			return $"{GetCartaIDFormateada()}_{imagen}";
 		}
 
 
